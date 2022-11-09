@@ -4,6 +4,7 @@ from typing import Callable, List, Tuple, Union, Any
 
 DOT = "."
 
+
 def extract_tokens(body: str) -> List[str]:
     body = str(body)
 
@@ -44,6 +45,7 @@ def get_value_if_key_exists(*keys, map: dict, else_return_value="") -> Any:
             return else_return_value
 
     return _element
+
 
 def bind(
     original: str,

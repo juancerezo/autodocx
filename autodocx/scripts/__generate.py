@@ -44,7 +44,7 @@ class Generate(BaseScript):
             if not headers:
                 headers = row
                 headers_len = len(row)
-                continue # to next row
+                continue  # to next row
 
             if len(row) > headers_len:
                 raise InconsistentData("A row has more cells than headers available")

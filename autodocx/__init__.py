@@ -53,7 +53,7 @@ def basic(
         raise click.exceptions.FileError("Input file doesn't exists.")
 
     click.echo("Generating docs...")
-    
+
     try:
         Generate(
             input=input,
