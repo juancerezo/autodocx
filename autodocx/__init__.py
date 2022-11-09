@@ -38,7 +38,7 @@ def cli():
     default="Document Name",
     type=str,
 )
-def gen(
+def basic(
     input: Path,
     input_format: str,
     template: Path,
